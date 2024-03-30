@@ -23,14 +23,14 @@ body, html {
     height: auto;  /* 保持图片的宽高比 */
 }
 
-.intro-image {
+/*.intro-image {
     position: absolute;
-    top: 30%;  /* 垂直居中且略微靠上 */
-    right: 10%;  /* 放置在最右侧 */
-    transform: translateY(-50%);  /* 确保垂直居中 */
-    width: 30;  /* 根据图片实际宽度调整 */
-    height: auto;  /* 保持图片的宽高比 */
-}
+    top: 30%;  
+    right: 10%;  
+    transform: translateY(-50%); 
+    width: 30;  
+    height: auto;  
+}*/
 button {
     position: absolute;
     left: 50%;
