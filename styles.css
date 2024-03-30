@@ -23,6 +23,8 @@ body, html {
     height: auto;  /* 保持图片的宽高比 */
 }
 .intro-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
     position: absolute;
     right: 20px;
     top: 50%;
@@ -30,18 +32,6 @@ body, html {
     font-size: 2em;
     color: black;
 }
-
-.japanese {
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-}
-
-.english {
-    writing-mode: horizontal-tb;
-    display: block; /* 让英文文本块级显示 */
-    margin-top: 20px; /* 在日文和英文之间添加一些间隔 */
-}
-
 button {
     position: absolute;
     left: 50%;
