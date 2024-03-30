@@ -13,13 +13,24 @@ body, html {
     position: relative;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        left: 0%;
+    }
+    to {
+        opacity: 1;
+        left: 10%;
+    }
+}
 
 .company-logo {
     position: absolute;
-    top: 10%;  /* 顶部留出10%的空间，使其略微偏上 */
-    left: 10%;  /* 左侧50%的位置开始 */
-    width: 80%;  /* 调整图片的最大宽度，您可以根据需要调整这个值 */
-    height: auto;  /* 保持图片的宽高比 */
+    top: 10%;  
+    left: 10%;  
+    width: 80%;  
+    height: auto;  
+    animation: fadeIn 3s ease-out forwards; /* 应用动画，持续时间3秒 */
 }
 
 /*.intro-image {
