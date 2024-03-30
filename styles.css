@@ -1,61 +1,49 @@
-
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: 'Arial', sans-serif; /* 可以选择更适合的字体 */
 }
 
 .background-image {
-    background-image: url('A_simple_and_elegant_Japanese-style_painting_featu.png');
+    background-image: url('A_simple_and_elegant_Japanese-style_painting_featu.png'); /* 调整为您的背景图片路径 */
     background-size: cover;
     background-position: center;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .intro-text {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    margin: 0 20px;
-    max-width: 400px;
     opacity: 0;
     transition: opacity 2s;
+    color: #fff; /* 文字颜色为白色，根据背景调整 */
+    max-width: 80%;
 }
 
-.contact-container {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
+h1 {
+    font-size: 2.5em; /* 大标题的字体大小 */
+    margin-bottom: 0.5em;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
+p {
+    font-size: 1.5em; /* 段落文字的字体大小 */
+    margin-bottom: 1em;
 }
 
 button {
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #007bff; /* 按钮背景颜色 */
+    color: white; /* 按钮文字颜色 */
     border: none;
-    margin-top: 10px;
+    border-radius: 5px; /* 按钮边缘圆角 */
     cursor: pointer;
+    transition: background-color 0.3s; /* 鼠标悬浮时背景颜色变化的过渡效果 */
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* 鼠标悬浮时按钮的背景颜色 */
 }
