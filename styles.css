@@ -10,29 +10,28 @@ body, html {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    position: relative;  /* 确保背景图片相对定位 */
+    position: relative;
 }
 
-h1 {
-    white-space: nowrap; /* 阻止文本换行 */
-    position: absolute;  /* 绝对定位确保标题位置 */
+/* 添加的公司logo样式 */
+.company-logo {
+    position: absolute;
     top: 20px;  /* 从顶部留出一些空间 */
     left: 50%;  /* 水平居中 */
     transform: translateX(-50%);  /* 确保水平居中的精确性 */
-    font-size: 5em;  /* 标题字体大小 */
-    margin: 0;
-    color: black;  /* 确保标题颜色为黑色 */
+    max-width: 80%;  /* 控制最大宽度，以适应不同的屏幕尺寸 */
+    height: auto;  /* 保持图片原始的宽高比 */
 }
 
 .intro-text {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     position: absolute;
-    right: 20px;  /* 从右侧留出一些空间 */
-    top: 50%;  /* 垂直居中 */
-    transform: translateY(-50%);  /* 确保垂直居中的精确性 */
-    font-size: 2em;  /* 增大介绍文本的字体大小 */
-    color: black;  /* 确保文本颜色为黑色 */
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    color: black;
 }
 
 button {
@@ -52,4 +51,3 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-
