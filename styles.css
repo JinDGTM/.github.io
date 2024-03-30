@@ -17,11 +17,12 @@ body, html {
 .company-logo {
     position: absolute;
     top: 10%;  /* 顶部留出10%的空间，使其略微偏上 */
-    left: 20%;  /* 左侧50%的位置开始 */
-    transform: translate(0%, -10%);  /* 向左和向上调整，确保居中 */
+    left: 50%;  /* 左侧50%的位置开始 */
+    transform: translate(50%, -10%);  /* 向左和向上调整，确保居中 */
     width: 200%;  /* 调整图片的最大宽度，您可以根据需要调整这个值 */
     height: auto;  /* 保持图片的宽高比 */
 }
+
 .intro-image {
     position: absolute;
     top: 40%;  /* 垂直居中且略微靠上 */
