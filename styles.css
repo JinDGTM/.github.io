@@ -16,13 +16,12 @@ body, html {
 /* 添加的公司logo样式 */
 .company-logo {
     position: absolute;
-    top: 20px;  /* 从顶部留出一些空间 */
-    left: 50%;  /* 水平居中 */
-    transform: translateX(-50%);  /* 确保水平居中的精确性 */
-    max-width: 80%;  /* 控制最大宽度，以适应不同的屏幕尺寸 */
-    height: auto;  /* 保持图片原始的宽高比 */
+    top: 20%;  /* 顶部留出10%的空间，使其略微偏上 */
+    left: 50%;  /* 左侧50%的位置开始 */
+    transform: translate(-50%, -10%);  /* 向左和向上调整，确保居中 */
+    max-width: 60%;  /* 调整图片的最大宽度，您可以根据需要调整这个值 */
+    height: auto;  /* 保持图片的宽高比 */
 }
-
 .intro-text {
     position: absolute;
     right: 20px;
