@@ -65,7 +65,7 @@ body, html {
     animation: fadebot 3s ease-out forwards;
 }
 
-.about-us, .contact-us {
+.contact-us {
     background-color: #fefbec;
     height: 100vh;
     display: flex;
@@ -74,14 +74,21 @@ body, html {
     text-align: center;
 }
 
-.content {
-    padding: 20px;
+
+.about-us {
+    background-color: #fefbec;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-h1 {
-    color: #333;
+.content img {
+    max-width: 80%;  /* 控制图片的最大宽度 */
+    height: auto;  /* 保持图片的高宽比 */
 }
 
-p {
+
     color: #555;
 }
