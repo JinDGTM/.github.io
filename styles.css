@@ -6,32 +6,31 @@ body, html {
 }
 
 .background-image {
+    position: relative; /* 设定相对定位基准 */
     background-image: url('A_simple_and_elegant_Japanese-style_painting_featu.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; /* 从顶部开始显示内容 */
-    align-items: center;
-    color: #000;
 }
 
 h1 {
+    position: absolute; /* 绝对定位 */
+    top: 0; /* 顶部对齐 */
+    left: 50%; /* 左侧偏移50% */
+    transform: translateX(-50%); /* 向左平移50%，确保中心对齐 */
     font-size: 4em;
-    margin: 20px 0; /* 上下边距 */
-    width: 100%;
-    text-align: center; /* 文本水平居中 */
+    margin: 10px 0; /* 调整上下边距 */
 }
 
 .intro-text {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     position: absolute;
-    right: 10%; /* 右侧位置调整 */
+    right: 10%;
     top: 50%;
-    transform: translateY(-50%); /* 垂直居中 */
+    transform: translateY(-50%);
     opacity: 1;
+    font-size: 1.5em; /* 增大字体大小 */
 }
 
 button {
@@ -43,7 +42,10 @@ button {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
-    align-self: center; /* 水平居中 */
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
 }
 
 button:hover {
