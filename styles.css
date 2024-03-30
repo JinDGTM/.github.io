@@ -30,7 +30,7 @@ h1 {
     right: 20px;  /* 从右侧留出一些空间 */
     top: 50%;  /* 垂直居中 */
     transform: translateY(-50%);  /* 确保垂直居中的精确性 */
-    font-size: 3em;  /* 增大介绍文本的字体大小 */
+    font-size: 2em;  /* 增大介绍文本的字体大小 */
     color: black;  /* 确保文本颜色为黑色 */
 }
 
