@@ -41,20 +41,36 @@ body, html {
     width: 30;  
     height: auto;  
 }*/
-button {
+.button-left {
     position: absolute;
-    left: 50%;
-    bottom: 20px;
-    transform: translateX(-50%);
-    font-size: 1em;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    left: 0;
+    bottom: 0;
 }
 
-button:hover {
-    background-color: #0056b3;
+/* 右下角按钮样式 */
+.button-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.about-us, .contact-us {
+    background-color: #fefbec;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
 }
