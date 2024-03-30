@@ -14,6 +14,7 @@ body, html {
 }
 
 h1 {
+    white-space: nowrap; /* 阻止文本换行 */
     position: absolute;  /* 绝对定位确保标题位置 */
     top: 20px;  /* 从顶部留出一些空间 */
     left: 50%;  /* 水平居中 */
