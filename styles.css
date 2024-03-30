@@ -2,11 +2,11 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Arial', sans-serif; /* 可以选择更适合的字体 */
+    font-family: 'Arial', sans-serif;
 }
 
 .background-image {
-    background-image: url('A_simple_and_elegant_Japanese-style_painting_featu.png'); /* 调整为您的背景图片路径 */
+    background-image: url('A_simple_and_elegant_Japanese-style_painting_featu.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -14,36 +14,34 @@ body, html {
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: #fff;  /* 根据背景图片的主要颜色调整文字颜色 */
 }
 
 .intro-text {
     opacity: 0;
     transition: opacity 2s;
-    color: #fff; /* 文字颜色为白色，根据背景调整 */
     max-width: 80%;
 }
 
 h1 {
-    font-size: 2.5em; /* 大标题的字体大小 */
-    margin-bottom: 0.5em;
+    font-size: 2.5em;
 }
 
 p {
-    font-size: 1.5em; /* 段落文字的字体大小 */
-    margin-bottom: 1em;
+    font-size: 1.5em;
 }
 
 button {
     font-size: 1em;
     padding: 10px 20px;
-    background-color: #007bff; /* 按钮背景颜色 */
-    color: white; /* 按钮文字颜色 */
+    background-color: #007bff;
+    color: white;
     border: none;
-    border-radius: 5px; /* 按钮边缘圆角 */
+    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s; /* 鼠标悬浮时背景颜色变化的过渡效果 */
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #0056b3; /* 鼠标悬浮时按钮的背景颜色 */
+    background-color: #0056b3;
 }
