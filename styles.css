@@ -22,15 +22,13 @@ body, html {
     width: 200%;  /* 调整图片的最大宽度，您可以根据需要调整这个值 */
     height: auto;  /* 保持图片的宽高比 */
 }
-.intro-text {
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
+.intro-image {
     position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 2em;
-    color: black;
+    top: 40%;  /* 垂直居中且略微靠上 */
+    right: 0%;  /* 放置在最右侧 */
+    transform: translateY(-50%);  /* 确保垂直居中 */
+    width: auto;  /* 根据图片实际宽度调整 */
+    height: auto;  /* 保持图片的宽高比 */
 }
 button {
     position: absolute;
