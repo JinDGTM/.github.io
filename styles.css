@@ -77,17 +77,34 @@ body, html {
 
 .about-us {
     background-color: #fefbec;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    line-height: 1.6;
 }
 
-.content img {
-    max-width: 80%;  /* 控制图片的最大宽度 */
-    height: auto;  /* 保持图片的高宽比 */
+.content {
+    max-width: 600px;
+    margin: 0 auto;
 }
+
+h1, h2 {
+    color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0056b3;
+}
+
 
 
 
@@ -101,4 +118,21 @@ h1 {
 
 p {
     color: #555;
+}
+
+
+.language-switcher {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.language-switcher a {
+    color: #0056b3;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.language-switcher a:hover {
+    text-decoration: underline;
 }
