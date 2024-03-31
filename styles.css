@@ -64,6 +64,13 @@ body, html {
     bottom: 2%;
     animation: fadebot 3s ease-out forwards;
 }
+.Back-button {
+    position: absolute;
+    right: 5%;
+    bottom: 2%;
+    animation: fadebot 3s ease-out forwards;
+}
+
 
 .contact-us {
     background-color: #fefbec;
