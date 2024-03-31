@@ -75,6 +75,11 @@ body, html {
 
 
 .about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
     background-color: #fefbec;
     color: #333;
     font-family: 'Arial', sans-serif;
@@ -84,8 +89,11 @@ body, html {
 
 .content {
     max-width: 600px;
+    width: 100%;
     margin: 0 auto;
+    text-align: center; /* テキストも中央寄せに */
 }
+
 
 h1, h2 {
     color: #0056b3;
