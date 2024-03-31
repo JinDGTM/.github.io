@@ -96,7 +96,7 @@ body, html {
     max-width: 600px;
     width: 100%;
     margin: 0 auto;
-    text-align: center; /* テキストも中央寄せに */
+    text-align: left; /* テキストも中央寄せに */
 }
 
 
