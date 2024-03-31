@@ -115,16 +115,25 @@ a {
 
 
 
-.contact {
-    padding: 20px;
-}
-
-h1 {
+.for-companies {
+    background-color: #fefbec;
     color: #333;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    line-height: 1.6;
 }
 
-p {
-    color: #555;
+.for-companies h1, .for-companies h2 {
+    color: #0056b3;
+}
+
+.for-companies ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.for-companies p, .for-companies li {
+    margin-bottom: 10px;
 }
 
 
