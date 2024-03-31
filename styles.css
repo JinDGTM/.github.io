@@ -96,7 +96,7 @@ body, html {
     font-family: 'Arial', sans-serif;
     padding: 20px;
     line-height: 1.6;
-    font-size: 24px; /* 增加的文字尺寸属性 */
+    font-size: 30px; /* 增加的文字尺寸属性 */
 }
 
 .content {
@@ -108,7 +108,7 @@ body, html {
 
 h1, h2 {
     color: #0056b3;
-    font-size: 30px; /* 调整标题的文字尺寸 */
+    font-size: 38px; /* 调整标题的文字尺寸 */
 }
 
 ul {
@@ -118,12 +118,12 @@ ul {
 
 li {
     margin-bottom: 10px;
-    font-size: 18px; /* 调整列表项的文字尺寸 */
+    font-size: 26px; /* 调整列表项的文字尺寸 */
 }
 
 a {
     color: #0056b3;
-    font-size: 18px; /* 调整链接的文字尺寸 */
+    font-size: 26px; /* 调整链接的文字尺寸 */
 }
 
 
