@@ -42,14 +42,6 @@ body, html {
     animation: fadeIn 3s ease-out forwards; /* 应用动画，持续时间3秒 */
 }
 
-/*.intro-image {
-    position: absolute;
-    top: 30%;  
-    right: 10%;  
-    transform: translateY(-50%); 
-    width: 30;  
-    height: auto;  
-}*/
 .button-left {
     position: absolute;
     left: 5%;
