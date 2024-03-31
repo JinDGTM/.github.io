@@ -152,7 +152,8 @@ a {
 }
 
 .for-companies p, .for-companies li {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
+    font-size: 18px
 }
 
 
