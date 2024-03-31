@@ -106,11 +106,14 @@ body, html {
     text-align: left;
 }
 
-h1, h2 {
+h2 {
     color: #0056b3;
     font-size: 38px; /* 调整标题的文字尺寸 */
 }
-
+h1 {
+    color: #FF0000;
+    font-size: 42px; /* 调整标题的文字尺寸 */
+}
 ul {
     list-style-type: none;
     padding: 0;
